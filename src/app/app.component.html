@@ -2,6 +2,7 @@
 <div *ngFor = 'let app of appList'>
     <ul>
         <li>{{app.ID}}</li>
+        <img [src] = 'app.url'>
         <li>{{app.Name}}</li>
     </ul>
 </div>
